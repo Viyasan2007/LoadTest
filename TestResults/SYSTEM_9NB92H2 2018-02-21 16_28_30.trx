@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="24d50a20-97d5-4401-8e4e-db727f944f0a" name="SYSTEM@9NB92H2 2018-02-21 16:28:30" runUser="NT AUTHORITY\SYSTEM" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="ca13c4ed-71b1-4832-82db-1f621a4c1b68">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="SYSTEM_9NB92H2 2018-02-21 16_28_30" />
+    <Properties />
+  </TestSettings>
+  <Times creation="2018-02-21T16:28:30.4081317-05:00" queuing="2018-02-21T16:28:31.4088849-05:00" start="2018-02-21T16:28:31.5091523-05:00" finish="2018-02-21T16:28:31.8841110-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GivenLogIntoDashBoard_CreateANewLead" storage="c:\temp\jenkins\workspace\test\lolaautomation-sujah\loadtest\bin\debug\loadtest.dll" id="218df009-bde2-3f89-2d95-97e0bf90d7bd">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LOLA_Loadtest_LeadCreatation" />
+      </TestCategory>
+      <Execution id="8d4752ca-d9bd-4255-bc88-ea6dc242a758" />
+      <TestMethod codeBase="C:/Temp/Jenkins/workspace/Test/LOLAAutomation-Sujah/LoadTest/bin/Debug/LoadTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LoadTest.TestMethods.LoadTestcases+LoadTestCases, LoadTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GivenLogIntoDashBoard_CreateANewLead" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="218df009-bde2-3f89-2d95-97e0bf90d7bd" executionId="8d4752ca-d9bd-4255-bc88-ea6dc242a758" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8d4752ca-d9bd-4255-bc88-ea6dc242a758" testId="218df009-bde2-3f89-2d95-97e0bf90d7bd" testName="GivenLogIntoDashBoard_CreateANewLead" computerName="9NB92H2" duration="00:00:00.0532790" startTime="2018-02-21T16:28:31.5468583-05:00" endTime="2018-02-21T16:28:31.8390554-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8d4752ca-d9bd-4255-bc88-ea6dc242a758">
+      <Output>
+        <StdOut>------------------------------
+There was a problem in shifting bytes left!
+
+Test args #first# and #second#
+Test args #first# and #second#
+
+ The Start Time</StdOut>
+        <ErrorInfo>
+          <Message>Test method LoadTest.TestMethods.LoadTestcases+LoadTestCases.GivenLogIntoDashBoard_CreateANewLead threw exception: 
+OpenQA.Selenium.DriverServiceNotFoundException: The IEDriverServer.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://selenium-release.storage.googleapis.com/index.html.
+TestCleanup method LoadTest.TestMethods.LoadTestcases+LoadTestCases.CloseDown threw exception. System.NullReferenceException: System.NullReferenceException: Object reference not set to an instance of an object..</Message>
+          <StackTrace>    at OpenQA.Selenium.DriverService.FindDriverServiceExecutable(String executableName, Uri downloadUrl)
+   at OpenQA.Selenium.IE.InternetExplorerDriverService.CreateDefaultService()
+   at OpenQA.Selenium.IE.InternetExplorerDriver..ctor(InternetExplorerOptions options)
+   at UITestAutomationFrameWork.Pages.Driver.Initialize(String browserName) in C:\LOLAAutomation\Scratchpad\LOLAAutomation-Sujah\Driver\Driver.cs:line 25
+   at LoadTest.TestMethods.LoadTestcases.LoadTestCases.GivenLogIntoDashBoard_CreateANewLead() in C:\LOLAAutomation\Scratchpad\LOLAAutomation-Sujah\LoadTest\TestMethods\LoadTestcases.cs:line 46
+
+TestCleanup Stack Trace
+    at LoadTest.TestMethods.LoadTestcases.LoadTestCases.CloseDown() in C:\LOLAAutomation\Scratchpad\LOLAAutomation-Sujah\LoadTest\TestMethods\LoadTestcases.cs:line 63
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI.csproj", "{6A63F407-A90D-4D39-98E3-16DB15C14108}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipelineManager", "PipelineManagerTestCases\PipelineManager.csproj", "{D02DA22A-4B96-4244-8015-2E3C4BB645D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QText", "QTextTestCases\QText.csproj", "{5F9C8680-3611-4482-BC94-D4D2023ABE1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIHelper", "APIUtility\APIHelper.csproj", "{20CDFD22-6659-4ED8-B227-57651295240A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreshStart", "FreshStart\FreshStart.csproj", "{78575E95-158A-4B28-AB88-5F628D10712E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadTest", "LoadTest\LoadTest.csproj", "{020FB1B8-F816-4F1E-9F44-2DC8EAAAC97D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A63F407-A90D-4D39-98E3-16DB15C14108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A63F407-A90D-4D39-98E3-16DB15C14108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A63F407-A90D-4D39-98E3-16DB15C14108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A63F407-A90D-4D39-98E3-16DB15C14108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D02DA22A-4B96-4244-8015-2E3C4BB645D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D02DA22A-4B96-4244-8015-2E3C4BB645D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D02DA22A-4B96-4244-8015-2E3C4BB645D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D02DA22A-4B96-4244-8015-2E3C4BB645D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F9C8680-3611-4482-BC94-D4D2023ABE1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F9C8680-3611-4482-BC94-D4D2023ABE1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F9C8680-3611-4482-BC94-D4D2023ABE1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F9C8680-3611-4482-BC94-D4D2023ABE1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20CDFD22-6659-4ED8-B227-57651295240A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20CDFD22-6659-4ED8-B227-57651295240A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20CDFD22-6659-4ED8-B227-57651295240A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20CDFD22-6659-4ED8-B227-57651295240A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78575E95-158A-4B28-AB88-5F628D10712E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78575E95-158A-4B28-AB88-5F628D10712E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78575E95-158A-4B28-AB88-5F628D10712E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78575E95-158A-4B28-AB88-5F628D10712E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{020FB1B8-F816-4F1E-9F44-2DC8EAAAC97D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{020FB1B8-F816-4F1E-9F44-2DC8EAAAC97D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{020FB1B8-F816-4F1E-9F44-2DC8EAAAC97D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{020FB1B8-F816-4F1E-9F44-2DC8EAAAC97D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00A8ACE3-524D-4155-87B2-8CEDAE3CA476}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs/tfs/ql
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PipelineManagerTestCases\\PipelineManager.csproj
+		SccProjectName1 = PipelineManagerTestCases
+		SccLocalPath1 = PipelineManagerTestCases
+		SccProjectUniqueName2 = QTextTestCases\\QText.csproj
+		SccProjectName2 = QTextTestCases
+		SccLocalPath2 = QTextTestCases
+		SccProjectUniqueName3 = UI.csproj
+		SccLocalPath3 = .
+		SccProjectUniqueName4 = APIUtility\\APIHelper.csproj
+		SccProjectName4 = APIUtility
+		SccLocalPath4 = APIUtility
+		SccProjectUniqueName5 = FreshStart\\FreshStart.csproj
+		SccProjectName5 = FreshStart
+		SccLocalPath5 = FreshStart
+		SccProjectUniqueName6 = LoadTest\\LoadTest.csproj
+		SccProjectName6 = LoadTest
+		SccLocalPath6 = LoadTest
+	EndGlobalSection
+EndGlobal
